@@ -26,7 +26,7 @@ textos = df_val["texto"].astype(str)
 
 # Selector de texto
 texto_seleccionado = st.selectbox(
-    "Selecciona un texto de validación",
+    "Selecciona un texto de validación o escribe uno totalmente nuevo en la escribe uno nuevo en la cerla de abajo",
     textos
 )
 
